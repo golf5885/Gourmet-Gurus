@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 600px;
+    /* Maximum width of the card */
+}
+
+/* Image styles */
+.image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Content styles */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title styles */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* Nutritional Info styles */
+.info {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Divider styles */
+.divider {
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+/* Reviews styles */
+.reviews {
+    width: 100%;
+}
+
+.reviews h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .reviews {
+        width: 45%;
+    }
+}
