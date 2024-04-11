@@ -6,10 +6,11 @@ app = FastAPI()
 # mysql connection
 def get_db_connection():
     return pymysql.connect(
-        host='169-231-137-187.wireless.ucsb.edu',
-        user='ggg',
-        password='gauchos!123',
-        db='gauchos',
+        # host='169-231-137-187.wireless.ucsb.edu',
+        host = '127.0.0.1',
+        user='Guru',
+        password='GourmetGuru1234',
+        db='test',
         cursorclass=pymysql.cursors.DictCursor
     )
 
@@ -21,7 +22,7 @@ def read_items():
     try:
         with connection.cursor() as cursor:
 
-            sql = "SELECT * FROM foods"
+            sql = "SELECT * FROM info"
             cursor.execute(sql)
 
             result = cursor.fetchall()
