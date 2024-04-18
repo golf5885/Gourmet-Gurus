@@ -1,15 +1,43 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/about/page.js"
+    ],
+    "/dining-halls/dlg/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dining-halls/dlg/page.css",
+      "static/chunks/app/dining-halls/dlg/page.js"
+    ],
+    "/dishes/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dishes/[id]/page.js"
+    ],
+    "/dining-halls/car/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dining-halls/car/page.css",
+      "static/chunks/app/dining-halls/car/page.js"
+    ],
+    "/dining-halls/ort/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dining-halls/ort/page.css",
+      "static/chunks/app/dining-halls/ort/page.js"
     ]
   }
 }

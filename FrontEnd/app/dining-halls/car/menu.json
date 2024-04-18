@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Minestrone Soup (vgn)",
+        "station": "Blue Plate Special"
+    },
+    {
+        "name": "Chicken Lasagna with Spinach",
+        "station": "Blue Plate Special"
+    },
+    {
+        "name": "Green Beans (vgn)",
+        "station": "Blue Plate Special"
+    },
+    {
+        "name": "Baked Potato (vgn)",
+        "station": "Blue Plate Special"
+    },
+    {
+        "name": "Baked Sweet Potato (vgn)",
+        "station": "Blue Plate Special"
+    },
+    {
+        "name": "Beef And Bean Burrito",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Sweet Corn Tamale Casserole (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Rice with Cilantro & Onions (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Pinto Beans (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Flour Tortilla (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Corn Tortilla (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Wheat Tortilla (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Fire Roasted Tomato Salsa (vgn)",
+        "station": "Taqueria (East Side)"
+    },
+    {
+        "name": "Bacon Jalapeno Pizza",
+        "station": "Pizza"
+    },
+    {
+        "name": "Pineapple Pizza (v)",
+        "station": "Pizza"
+    },
+    {
+        "name": "Herb Breadsticks (vgn)",
+        "station": "Pizza"
+    },
+    {
+        "name": "Stir Fry Shrimp and Vegetables",
+        "station": "To Order"
+    },
+    {
+        "name": "Indonesian Tofu Fried Rice (vgn)",
+        "station": "To Order"
+    },
+    {
+        "name": "Long Grain Rice (vgn)",
+        "station": "To Order"
+    },
+    {
+        "name": "Wild Rice Blend (vgn)",
+        "station": "To Order"
+    },
+    {
+        "name": "Kale Strawberry & Walnut Salad(w/nut(vgn",
+        "station": "Salads/Deli (West Side)"
+    },
+    {
+        "name": "Garlic Roll (v)",
+        "station": "Bakery"
+    },
+    {
+        "name": "Carrot Cake w/Cream Cheese (w/nuts) (v)",
+        "station": "Bakery"
+    }
+]
